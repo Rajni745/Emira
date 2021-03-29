@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616660978622' stop='1616661038634'>
+    <name>Verify join now page</name>
+    <title>Verify join now page</title>
+    <test-cases>
+        <test-case start='1616660978622' status='broken' stop='1616661038633'>
+            <name>Try to login via invalid credentials</name>
+            <title>Try to login via invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps>
+                <step start='1616660978625' status='passed' stop='1616660984579'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='541717db-2cab-4051-b8db-0c34979e3012-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616660984580' status='passed' stop='1616660986133'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9a79adcc-4278-4001-b584-10317121d096-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='c9fdf891-77a6-4b85-b525-ed01e5874030-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616660986144' status='passed' stop='1616660987651'>
+                    <name>POST /session/:sessionId/element/2c4a8763-8534-4b13-81ad-39763a983a23/click</name>
+                    <title>POST /session/:sessionId/element/2c4a8763-8534-4b13-81ad-39763a983a23/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1616660987652' status='passed' stop='1616660988233'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='959b0740-e8e0-4576-8522-b7cf7f5287c8-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='1f3915f0-9a2e-4419-9f1b-7d55f2e84d35-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616660988239' status='passed' stop='1616660988587'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='2ca03175-a735-4bb8-b40b-d2bd05e78ad8-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='ff997522-22d3-4b52-9847-911e07390d38-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616660988588' status='passed' stop='1616660988935'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='029d64ec-87c5-4bd5-b1a9-78968727cf87-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='ad2243c5-1837-4ee0-8313-6cd56121647c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616660988936' status='passed' stop='1616660989334'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cda40590-e0d9-450d-a0eb-d5295260c9b2-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='c797e675-9041-4788-8b3e-0ca165e6517d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1616660989336' status='broken' stop='1616661038632'>
+                    <name>POST /session/:sessionId/element/3c5dae83-cf47-4fd1-b7d3-dd63a67be526/click</name>
+                    <title>POST /session/:sessionId/element/3c5dae83-cf47-4fd1-b7d3-dd63a67be526/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Verify join now page Try to login via invalid credentials" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\rajni.sharma\Documents\Emirates\test\pageobjects\test\specs\join_now.e2e.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Verify join now page Try to login via invalid credentials" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\rajni.sharma\Documents\Emirates\test\pageobjects\test\specs\join_now.e2e.js)
+                    at createTimeoutError (C:\Users\rajni.sharma\Documents\Emirates\node_modules\mocha\lib\errors.js:491:15)
+                    at Test.Runnable._timeoutError (C:\Users\rajni.sharma\Documents\Emirates\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\rajni.sharma\Documents\Emirates\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

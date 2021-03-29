@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#onetrust-accept-btn-handler\"}\n  (Session info: chrome=89.0.4389.90)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x0114C478+340760]\n\tGetHandleVerifier [0x0116EE42+482530]\n\tGetHandleVerifier [0x011616BA+427354]\n\tGetHandleVerifier [0x0116D6EB+476555]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x75FF6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C58944+228]\n\tRtlGetAppContainerNamedObjectPath [0x77C58914+180]\n"
+}

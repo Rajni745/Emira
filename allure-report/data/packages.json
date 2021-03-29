@@ -1,0 +1,39 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Verify join now page",
+    "children" : [ {
+      "name" : "Try to login via invalid credentials",
+      "uid" : "fd3a0cb63ce7a9a2",
+      "parentUid" : "7ec58a464c0b15d8d3c21aea3b0e3a4b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1616660704039,
+        "stop" : 1616660749081,
+        "duration" : 45042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    } ],
+    "uid" : "7ec58a464c0b15d8d3c21aea3b0e3a4b"
+  }, {
+    "name" : "Verify login page",
+    "children" : [ {
+      "name" : "Try to login via invalid credentials",
+      "uid" : "1641ae6a6ea262e3",
+      "parentUid" : "ca525b403e489fbe21b68210a45497a7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1616660704145,
+        "stop" : 1616660727913,
+        "duration" : 23768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    } ],
+    "uid" : "ca525b403e489fbe21b68210a45497a7"
+  } ]
+}

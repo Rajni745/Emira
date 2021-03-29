@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Mar 25 13:55:04 IST 2021","Thu Mar 25 13:55:49 IST 2021","45042","","Verify join now page","","Verify join now page","Try to login via invalid credentials","Try to login via invalid credentials",""
+"broken","Thu Mar 25 13:55:04 IST 2021","Thu Mar 25 13:55:27 IST 2021","23768","","Verify login page","","Verify login page","Try to login via invalid credentials","Try to login via invalid credentials",""

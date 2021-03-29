@@ -1,0 +1,21 @@
+[ {
+  "uid" : "fd3a0cb63ce7a9a2",
+  "name" : "Try to login via invalid credentials",
+  "time" : {
+    "start" : 1616660704039,
+    "stop" : 1616660749081,
+    "duration" : 45042
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1641ae6a6ea262e3",
+  "name" : "Try to login via invalid credentials",
+  "time" : {
+    "start" : 1616660704145,
+    "stop" : 1616660727913,
+    "duration" : 23768
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

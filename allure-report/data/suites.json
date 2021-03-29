@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Verify join now page",
+    "children" : [ {
+      "name" : "Try to login via invalid credentials",
+      "uid" : "fd3a0cb63ce7a9a2",
+      "parentUid" : "69d1882d8b25b87c401b3725c22164a3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1616660704039,
+        "stop" : 1616660749081,
+        "duration" : 45042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    } ],
+    "uid" : "69d1882d8b25b87c401b3725c22164a3"
+  }, {
+    "name" : "Verify login page",
+    "children" : [ {
+      "name" : "Try to login via invalid credentials",
+      "uid" : "1641ae6a6ea262e3",
+      "parentUid" : "00943ebd0f9be9e747fa6fa26ff9dae1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1616660704145,
+        "stop" : 1616660727913,
+        "duration" : 23768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.90" ]
+    } ],
+    "uid" : "00943ebd0f9be9e747fa6fa26ff9dae1"
+  } ]
+}

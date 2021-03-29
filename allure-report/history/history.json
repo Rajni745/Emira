@@ -1,0 +1,42 @@
+{
+  "f7cd9110722784de106569201d09b03b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1641ae6a6ea262e3",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button id=\"login-button\" aria-disabled=\"false\" type=\"submit\" class=\"call-to-action call-to-action__primary call-to-action--middle\">...</button> is not clickable at point (242, 551). Other element would receive the click: <div class=\"ot-sdk-container\">...</div>\n                  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616660704145,
+        "stop" : 1616660727913,
+        "duration" : 23768
+      }
+    } ]
+  },
+  "1f9e9021b6dc7bc9a514789d1af4f4fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd3a0cb63ce7a9a2",
+      "status" : "broken",
+      "statusDetails" : "createAccountTb is not defined",
+      "time" : {
+        "start" : 1616660704039,
+        "stop" : 1616660749081,
+        "duration" : 45042
+      }
+    } ]
+  }
+}

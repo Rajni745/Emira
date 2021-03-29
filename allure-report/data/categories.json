@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "createAccountTb is not defined",
+      "children" : [ {
+        "name" : "Try to login via invalid credentials",
+        "uid" : "fd3a0cb63ce7a9a2",
+        "parentUid" : "9c04f3d4da083221f0ad3ce66ef20ac7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616660704039,
+          "stop" : 1616660749081,
+          "duration" : 45042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-89.0.4389.90" ]
+      } ],
+      "uid" : "9c04f3d4da083221f0ad3ce66ef20ac7"
+    }, {
+      "name" : "element click intercepted: Element <button id=\"login-button\" aria-disabled=\"false\" type=\"submit\" class=\"call-to-action call-to-action__primary call-to-action--middle\">...</button> is not clickable at point (242, 551). Other element would receive the click: <div class=\"ot-sdk-container\">...</div>\n                  (Session info: chrome=89.0.4389.90)",
+      "children" : [ {
+        "name" : "Try to login via invalid credentials",
+        "uid" : "1641ae6a6ea262e3",
+        "parentUid" : "b1183cc3e1bcacba298b42d8b2190a72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616660704145,
+          "stop" : 1616660727913,
+          "duration" : 23768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-89.0.4389.90" ]
+      } ],
+      "uid" : "b1183cc3e1bcacba298b42d8b2190a72"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
